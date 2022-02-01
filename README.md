@@ -8,6 +8,7 @@ In this project you will build such a pipeline.
 
 ## Table of contents
 
+- [Project links](#project-links)
 - [Introduction](#build-an-ML-Pipeline-for-Short-Term-Rental-Prices-in-NYC)
 - [Preliminary steps](#preliminary-steps)
   * [Fork the Starter Kit](#fork-the-starter-kit)
@@ -30,6 +31,11 @@ In this project you will build such a pipeline.
   * [Release the pipeline](#release-the-pipeline)
   * [Train the model on a new data sample](#train-the-model-on-a-new-data-sample)
 - [Cleaning up](#cleaning-up)
+
+## Project links
+[W&B prod artifact](https://wandb.ai/hferdkp/nyc_airbnb/overview)
+
+[Gihthub project](https://github.com/HectorSilva/nd0821-c2-build-model-workflow-starter)
 
 ## Preliminary steps
 ### Fork the Starter kit
