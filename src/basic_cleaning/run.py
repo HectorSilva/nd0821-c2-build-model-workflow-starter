@@ -39,6 +39,11 @@ def go(args):
         type=args.output_type,
         description=args.output_description,
     )
+
+    idx = df['longitude'].between(-74.25, -
+                                  73.50) & df['latitude'].between(40.5, 41.2)
+    df = df[idx].copy()
+
     artifact.add_file("clean_sample.csv")
     run.log_artifact(artifact)
 
